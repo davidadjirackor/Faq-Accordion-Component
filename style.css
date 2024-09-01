@@ -1,0 +1,70 @@
+
+body{
+  background-color: hsl(275, 100%, 97%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.main-accordion{
+  max-width: 500px;
+  background-color: white;
+  margin: 150px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.header-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-image h1 {
+  font-size: 40px;
+}
+
+.accordion-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-button{
+  margin-left: 20px;
+}
+
+.accordion-button:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.5s ease-in-out
+}
+
+h3:hover{
+  cursor: pointer;
+  color: purple;
+}
+
+/*.accordion-section + .accordion-section  {
+  border-top: 1px solid #D0D0D0;
+}*/
+
+.background-image{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.accordion-content, .minus-icon{
+ display: none; 
+}
+
+.my-toggle{
+ display: block; 
+}
+
+.accordion-section {
+  border-bottom: 1px solid rgb(204, 204, 204) ;
+
+}
